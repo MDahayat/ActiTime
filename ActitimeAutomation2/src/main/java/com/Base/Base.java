@@ -37,6 +37,7 @@ public class Base {
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
+		//test
 	}
 
 	public void launchApplication(String url) {
